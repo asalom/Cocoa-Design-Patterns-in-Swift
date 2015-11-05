@@ -23,13 +23,5 @@ class Person: NSObject {
         self.name = name
         super.init()
     }
-    
-    /* Convenience class methods */
-    class func person(name: String) -> Person {
-        return Person(name: name)
-    }
 
-    class func admin() -> Person {
-        return Person(name: "Admin Smith")
-    }
 }
