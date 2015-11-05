@@ -20,7 +20,7 @@ class PersonTests: XCTestCase {
     
     func testConvenienceInitializer() {
         let person = Person()
-        XCTAssertEqual(person.name, "Unknown")
+        XCTAssertEqual(person.name, "John Malkovich")
     }
     
     func testConvenienceMethod() {

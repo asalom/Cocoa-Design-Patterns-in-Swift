@@ -15,7 +15,7 @@ class Person: NSObject {
     /* Convenience initializer */
     // If this would be a base class we could omit this initializer by providing a default value for the 'name' property
     convenience override init() {
-        self.init(name: "Unknown")
+        self.init(name: "John Malkovich")
     }
     
     /* Designated initializer */
