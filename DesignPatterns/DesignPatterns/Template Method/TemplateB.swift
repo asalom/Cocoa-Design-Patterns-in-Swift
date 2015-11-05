@@ -9,7 +9,4 @@
 import Foundation
 
 class TemplateB: TemplateBase {
-    override func rename() {
-        self.configuration = "Configuration B"
-    }
 }

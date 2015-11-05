@@ -9,15 +9,15 @@
 import Foundation
 
 class TemplateBase {
-    var configuration: String = "Unconfigured"
+    var configuration: String = "Typical configuration"
     
     func configure() {
-        self.doWork()
+        self.work()
         self.rename()
-        self.doMoreWork()
+        self.workMore()
     }
     
-    private func doWork() {
+    private func work() {
         for var i = 0; i < 10; i++ { }
     }
     
@@ -25,7 +25,7 @@ class TemplateBase {
         
     }
     
-    private func doMoreWork() {
+    private func workMore() {
         for var i = 0; i < 10; i++ { }
     }
 }

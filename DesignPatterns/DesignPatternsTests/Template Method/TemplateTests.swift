@@ -13,18 +13,18 @@ class TemplateTests: XCTestCase {
     func testBaseTemplateDoesNotConfigure() {
         let templateBase = TemplateBase()
         templateBase.configure()
-        XCTAssertEqual(templateBase.configuration, "Unconfigured")
+        XCTAssertEqual(templateBase.configuration, "Typical configuration")
     }
     
     func templateAConfigures() {
         let templateBase = TemplateA()
         templateBase.configure()
-        XCTAssertEqual(templateBase.configuration, "Configuration A")
+        XCTAssertEqual(templateBase.configuration, "Special configuration")
     }
     
     func templateBConfigures() {
         let templateBase = TemplateB()
         templateBase.configure()
-        XCTAssertEqual(templateBase.configuration, "Configuration B")
+        XCTAssertEqual(templateBase.configuration, "Typical configuration")
     }
 }

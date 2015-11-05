@@ -10,6 +10,6 @@ import Foundation
 
 class TemplateA: TemplateBase {
     override func rename() {
-        self.configuration = "Configuration A"
+        self.configuration = "Special configuration"
     }
 }

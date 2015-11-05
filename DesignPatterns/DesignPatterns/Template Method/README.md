@@ -11,3 +11,8 @@ deinit
 
 func drawRect(_ rect: CGRect)
 ``` 
+
+Consequences: 
+1. Subclasses produces coupling.
+2. Intention hard to document, i.e. 'You shouldn't call super...', 'Calling super does nothing', etc.
+3. All subclasses may require unrelated customization.
