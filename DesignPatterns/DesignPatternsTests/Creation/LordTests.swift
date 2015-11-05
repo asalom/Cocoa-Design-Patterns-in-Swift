@@ -14,4 +14,9 @@ class LordTests: XCTestCase {
         let lord = Lord(name: "John Smith")
         XCTAssertEqual(lord.name, "Lord John Smith")
     }
+    
+    func testLordIsAppendedForConvenienceCLassMethod() {
+        let lord = Lord.admin()
+        XCTAssertEqual(lord.name, "Lord Admin Smith")
+    }
 }

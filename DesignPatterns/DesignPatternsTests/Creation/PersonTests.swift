@@ -22,4 +22,14 @@ class PersonTests: XCTestCase {
         let person = Person()
         XCTAssertEqual(person.name, "John Malkovich")
     }
+    
+    func testConvenienceMethod() {
+        let person = Person.person(testName)
+        XCTAssertEqual(person.name, testName)
+    }
+    
+    func testAdminConvenienceMethod() {
+        let person = Person.admin()
+        XCTAssertEqual(person.name, "Admin Smith")
+    }
 }

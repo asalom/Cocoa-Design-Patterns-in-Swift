@@ -9,7 +9,7 @@
 import UIKit
 
 class Lord: Person {
-    override init(name: String) {
+    required init(name: String) {
         super.init(name: name)
         self.name = "Lord \(self.name)"
     }
