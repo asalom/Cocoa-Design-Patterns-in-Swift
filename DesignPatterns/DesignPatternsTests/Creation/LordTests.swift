@@ -15,8 +15,13 @@ class LordTests: XCTestCase {
         XCTAssertEqual(lord.name, "Lord John Smith")
     }
     
-    func testLordIsAppendedForConvenienceCLassMethod() {
-        let lord = Lord.admin()
-        XCTAssertEqual(lord.name, "Lord Admin Smith")
+    func testLordIsGoodByDefault() {
+        let lord = Lord(name: "John Smith")
+        XCTAssertEqual(lord.behaviour, Behaviour.Good)
+    }
+    
+    func testLordCanInitializeItsBehaviour() {
+        let lord = Lord(name: "John Smith", behaviour: .Bad)
+        XCTAssertEqual(lord.behaviour, Behaviour.Bad)
     }
 }
