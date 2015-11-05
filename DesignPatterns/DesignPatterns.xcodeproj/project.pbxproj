@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F7D9F681BEB692200426731 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F671BEB692200426731 /* Person.swift */; };
+		3F7D9F6A1BEB693C00426731 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F691BEB693C00426731 /* PersonTests.swift */; };
 		F9CEBF211BEA631800A19248 /* DesignPatterns.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CEBF201BEA631800A19248 /* DesignPatterns.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9CEBF281BEA631800A19248 /* DesignPatterns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CEBF1D1BEA631800A19248 /* DesignPatterns.framework */; };
 		F9CEBF2D1BEA631800A19248 /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CEBF2C1BEA631800A19248 /* DesignPatternsTests.swift */; };
@@ -23,6 +25,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F7D9F641BEB618B00426731 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F7D9F671BEB692200426731 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		3F7D9F691BEB693C00426731 /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
 		F9CEBF1D1BEA631800A19248 /* DesignPatterns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignPatterns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CEBF201BEA631800A19248 /* DesignPatterns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatterns.h; sourceTree = "<group>"; };
 		F9CEBF221BEA631800A19248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +55,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F7D9F631BEB614600426731 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D9F641BEB618B00426731 /* README.md */,
+				3F7D9F671BEB692200426731 /* Person.swift */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
+		3F7D9F661BEB61AC00426731 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D9F691BEB693C00426731 /* PersonTests.swift */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
 		F9CEBF131BEA631800A19248 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +93,7 @@
 		F9CEBF1F1BEA631800A19248 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				3F7D9F631BEB614600426731 /* Creation */,
 				F9CEBF201BEA631800A19248 /* DesignPatterns.h */,
 				F9CEBF221BEA631800A19248 /* Info.plist */,
 			);
@@ -80,6 +103,7 @@
 		F9CEBF2B1BEA631800A19248 /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				3F7D9F661BEB61AC00426731 /* Creation */,
 				F9CEBF2C1BEA631800A19248 /* DesignPatternsTests.swift */,
 				F9CEBF2E1BEA631800A19248 /* Info.plist */,
 			);
@@ -194,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7D9F681BEB692200426731 /* Person.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7D9F6A1BEB693C00426731 /* PersonTests.swift in Sources */,
 				F9CEBF2D1BEA631800A19248 /* DesignPatternsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +366,7 @@
 		F9CEBF351BEA631800A19248 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = DesignPatternsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = es.alexsalom.DesignPatternsTests;
@@ -350,6 +377,7 @@
 		F9CEBF361BEA631800A19248 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = DesignPatternsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = es.alexsalom.DesignPatternsTests;
@@ -376,6 +404,7 @@
 				F9CEBF331BEA631800A19248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9CEBF341BEA631800A19248 /* Build configuration list for PBXNativeTarget "DesignPatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +413,7 @@
 				F9CEBF361BEA631800A19248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
