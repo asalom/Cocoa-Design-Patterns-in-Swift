@@ -7,29 +7,29 @@
 //
 
 import XCTest
+@testable import DesignPatterns
 
 class DynamicTests: XCTestCase {
 
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testCommandA() {
+        let command = "DesignPatterns.DynamicCommandA"
+        let result = self.command(command)?.command()
+        XCTAssertEqual(result, "Command A")
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+    func testCommandB() {
+        let command = "DesignPatterns.DynamicCommandB"
+        let result = self.command(command)?.command()
+        XCTAssertEqual(result, "Command B")
+    }
+    
+    func testNonExistingCommandB() {
+        let command = "DesignPatterns.NonExisting"
+        let result = self.command(command)?.command()
+        XCTAssertNil(result)
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func command(name: String) -> DynamicCommand.Type? {
+        return NSClassFromString(name) as? DynamicCommand.Type
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }

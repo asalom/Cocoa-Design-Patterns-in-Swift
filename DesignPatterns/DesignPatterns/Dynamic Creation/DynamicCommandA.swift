@@ -9,6 +9,6 @@
 
 class DynamicCommandA: DynamicCommand {
     override class func command() -> String {
-        return "Command B"
+        return "Command A"
     }
 }

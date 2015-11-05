@@ -19,7 +19,6 @@
 		3F7D9F851BEBAC4A00426731 /* DynamicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F841BEBAC4A00426731 /* DynamicTests.swift */; };
 		3F7D9F871BEBACD100426731 /* DynamicCommandA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F861BEBACD100426731 /* DynamicCommandA.swift */; };
 		3F7D9F891BEBACDE00426731 /* DynamicCommandB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F881BEBACDE00426731 /* DynamicCommandB.swift */; };
-		3F7D9F8B1BEBAE1A00426731 /* DynamicStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F8A1BEBAE1A00426731 /* DynamicStack.swift */; };
 		F9CEBF211BEA631800A19248 /* DesignPatterns.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CEBF201BEA631800A19248 /* DesignPatterns.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9CEBF281BEA631800A19248 /* DesignPatterns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CEBF1D1BEA631800A19248 /* DesignPatterns.framework */; };
 		F9CEBF2D1BEA631800A19248 /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CEBF2C1BEA631800A19248 /* DesignPatternsTests.swift */; };
@@ -51,7 +50,6 @@
 		3F7D9F841BEBAC4A00426731 /* DynamicTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTests.swift; sourceTree = "<group>"; };
 		3F7D9F861BEBACD100426731 /* DynamicCommandA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicCommandA.swift; sourceTree = "<group>"; };
 		3F7D9F881BEBACDE00426731 /* DynamicCommandB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicCommandB.swift; sourceTree = "<group>"; };
-		3F7D9F8A1BEBAE1A00426731 /* DynamicStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicStack.swift; sourceTree = "<group>"; };
 		F9CEBF1D1BEA631800A19248 /* DesignPatterns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignPatterns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CEBF201BEA631800A19248 /* DesignPatterns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatterns.h; sourceTree = "<group>"; };
 		F9CEBF221BEA631800A19248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 				3F7D9F821BEBABC400426731 /* DynamicCommand.swift */,
 				3F7D9F861BEBACD100426731 /* DynamicCommandA.swift */,
 				3F7D9F881BEBACDE00426731 /* DynamicCommandB.swift */,
-				3F7D9F8A1BEBAE1A00426731 /* DynamicStack.swift */,
 			);
 			path = "Dynamic Creation";
 			sourceTree = "<group>";
@@ -289,7 +286,6 @@
 			files = (
 				3F7D9F891BEBACDE00426731 /* DynamicCommandB.swift in Sources */,
 				3F7D9F831BEBABC400426731 /* DynamicCommand.swift in Sources */,
-				3F7D9F8B1BEBAE1A00426731 /* DynamicStack.swift in Sources */,
 				3F7D9F7A1BEBA07200426731 /* TemplateB.swift in Sources */,
 				3F7D9F761BEBA05200426731 /* TemplateBase.swift in Sources */,
 				3F7D9F6C1BEB841300426731 /* Lord.swift in Sources */,

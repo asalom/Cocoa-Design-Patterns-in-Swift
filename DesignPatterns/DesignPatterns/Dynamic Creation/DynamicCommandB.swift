@@ -7,8 +7,8 @@
 //
 
 
-class DynamicB: DynamicCommand {
+class DynamicCommandB: DynamicCommand {
     override class func command() -> String {
-        return "Command A"
+        return "Command B"
     }
 }
