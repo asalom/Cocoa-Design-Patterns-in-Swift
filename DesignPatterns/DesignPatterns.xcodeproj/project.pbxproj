@@ -11,6 +11,10 @@
 		3F7D9F6A1BEB693C00426731 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F691BEB693C00426731 /* PersonTests.swift */; };
 		3F7D9F6C1BEB841300426731 /* Lord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F6B1BEB841300426731 /* Lord.swift */; };
 		3F7D9F6E1BEB842A00426731 /* LordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F6D1BEB842A00426731 /* LordTests.swift */; };
+		3F7D9F761BEBA05200426731 /* TemplateBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F751BEBA05200426731 /* TemplateBase.swift */; };
+		3F7D9F781BEBA06600426731 /* TemplateA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F771BEBA06600426731 /* TemplateA.swift */; };
+		3F7D9F7A1BEBA07200426731 /* TemplateB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F791BEBA07200426731 /* TemplateB.swift */; };
+		3F7D9F7C1BEBA08900426731 /* TemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F7B1BEBA08900426731 /* TemplateTests.swift */; };
 		F9CEBF211BEA631800A19248 /* DesignPatterns.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CEBF201BEA631800A19248 /* DesignPatterns.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9CEBF281BEA631800A19248 /* DesignPatterns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CEBF1D1BEA631800A19248 /* DesignPatterns.framework */; };
 		F9CEBF2D1BEA631800A19248 /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CEBF2C1BEA631800A19248 /* DesignPatternsTests.swift */; };
@@ -32,6 +36,11 @@
 		3F7D9F691BEB693C00426731 /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
 		3F7D9F6B1BEB841300426731 /* Lord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lord.swift; sourceTree = "<group>"; };
 		3F7D9F6D1BEB842A00426731 /* LordTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LordTests.swift; sourceTree = "<group>"; };
+		3F7D9F711BEB987F00426731 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F7D9F751BEBA05200426731 /* TemplateBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateBase.swift; sourceTree = "<group>"; };
+		3F7D9F771BEBA06600426731 /* TemplateA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateA.swift; sourceTree = "<group>"; };
+		3F7D9F791BEBA07200426731 /* TemplateB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateB.swift; sourceTree = "<group>"; };
+		3F7D9F7B1BEBA08900426731 /* TemplateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateTests.swift; sourceTree = "<group>"; };
 		F9CEBF1D1BEA631800A19248 /* DesignPatterns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignPatterns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CEBF201BEA631800A19248 /* DesignPatterns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatterns.h; sourceTree = "<group>"; };
 		F9CEBF221BEA631800A19248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +87,25 @@
 			path = Creation;
 			sourceTree = "<group>";
 		};
+		3F7D9F6F1BEB982F00426731 /* Template Method */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D9F711BEB987F00426731 /* README.md */,
+				3F7D9F751BEBA05200426731 /* TemplateBase.swift */,
+				3F7D9F771BEBA06600426731 /* TemplateA.swift */,
+				3F7D9F791BEBA07200426731 /* TemplateB.swift */,
+			);
+			path = "Template Method";
+			sourceTree = "<group>";
+		};
+		3F7D9F701BEB985300426731 /* Template Method */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D9F7B1BEBA08900426731 /* TemplateTests.swift */,
+			);
+			path = "Template Method";
+			sourceTree = "<group>";
+		};
 		F9CEBF131BEA631800A19248 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				3F7D9F631BEB614600426731 /* Creation */,
+				3F7D9F6F1BEB982F00426731 /* Template Method */,
 				F9CEBF201BEA631800A19248 /* DesignPatterns.h */,
 				F9CEBF221BEA631800A19248 /* Info.plist */,
 			);
@@ -110,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				3F7D9F661BEB61AC00426731 /* Creation */,
+				3F7D9F701BEB985300426731 /* Template Method */,
 				F9CEBF2C1BEA631800A19248 /* DesignPatternsTests.swift */,
 				F9CEBF2E1BEA631800A19248 /* Info.plist */,
 			);
@@ -224,8 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7D9F7A1BEBA07200426731 /* TemplateB.swift in Sources */,
+				3F7D9F761BEBA05200426731 /* TemplateBase.swift in Sources */,
 				3F7D9F6C1BEB841300426731 /* Lord.swift in Sources */,
 				3F7D9F681BEB692200426731 /* Person.swift in Sources */,
+				3F7D9F781BEBA06600426731 /* TemplateA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7D9F6A1BEB693C00426731 /* PersonTests.swift in Sources */,
+				3F7D9F7C1BEBA08900426731 /* TemplateTests.swift in Sources */,
 				F9CEBF2D1BEA631800A19248 /* DesignPatternsTests.swift in Sources */,
 				3F7D9F6E1BEB842A00426731 /* LordTests.swift in Sources */,
 			);
