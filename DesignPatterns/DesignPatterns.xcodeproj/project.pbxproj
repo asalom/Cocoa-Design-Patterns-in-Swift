@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F451D031BECBDFA005C6C01 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F451D021BECBDFA005C6C01 /* ExtensionTests.swift */; };
+		3F451D051BECD3BE005C6C01 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F451D041BECD3BE005C6C01 /* String.swift */; };
 		3F7D9F681BEB692200426731 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F671BEB692200426731 /* Person.swift */; };
 		3F7D9F6A1BEB693C00426731 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F691BEB693C00426731 /* PersonTests.swift */; };
 		3F7D9F6C1BEB841300426731 /* Lord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D9F6B1BEB841300426731 /* Lord.swift */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F451D001BEC9F30005C6C01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F451D021BECBDFA005C6C01 /* ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		3F451D041BECD3BE005C6C01 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		3F7D9F641BEB618B00426731 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F7D9F671BEB692200426731 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		3F7D9F691BEB693C00426731 /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
@@ -77,6 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F451CFE1BEC9EF9005C6C01 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F451D001BEC9F30005C6C01 /* README.md */,
+				3F451D041BECD3BE005C6C01 /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3F451CFF1BEC9F16005C6C01 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F451D021BECBDFA005C6C01 /* ExtensionTests.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		3F7D9F631BEB614600426731 /* Creation */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +180,7 @@
 				3F7D9F631BEB614600426731 /* Creation */,
 				3F7D9F6F1BEB982F00426731 /* Template Method */,
 				3F7D9F7F1BEBAB3700426731 /* Dynamic Creation */,
+				3F451CFE1BEC9EF9005C6C01 /* Extension */,
 				F9CEBF201BEA631800A19248 /* DesignPatterns.h */,
 				F9CEBF221BEA631800A19248 /* Info.plist */,
 			);
@@ -170,6 +193,7 @@
 				3F7D9F661BEB61AC00426731 /* Creation */,
 				3F7D9F701BEB985300426731 /* Template Method */,
 				3F7D9F801BEBAB5700426731 /* Dynamic Creation */,
+				3F451CFF1BEC9F16005C6C01 /* Extension */,
 				F9CEBF2C1BEA631800A19248 /* DesignPatternsTests.swift */,
 				F9CEBF2E1BEA631800A19248 /* Info.plist */,
 			);
@@ -286,6 +310,7 @@
 			files = (
 				3F7D9F891BEBACDE00426731 /* DynamicCommandB.swift in Sources */,
 				3F7D9F831BEBABC400426731 /* DynamicCommand.swift in Sources */,
+				3F451D051BECD3BE005C6C01 /* String.swift in Sources */,
 				3F7D9F7A1BEBA07200426731 /* TemplateB.swift in Sources */,
 				3F7D9F761BEBA05200426731 /* TemplateBase.swift in Sources */,
 				3F7D9F6C1BEB841300426731 /* Lord.swift in Sources */,
@@ -302,6 +327,7 @@
 				3F7D9F6A1BEB693C00426731 /* PersonTests.swift in Sources */,
 				3F7D9F7C1BEBA08900426731 /* TemplateTests.swift in Sources */,
 				F9CEBF2D1BEA631800A19248 /* DesignPatternsTests.swift in Sources */,
+				3F451D031BECBDFA005C6C01 /* ExtensionTests.swift in Sources */,
 				3F7D9F6E1BEB842A00426731 /* LordTests.swift in Sources */,
 				3F7D9F851BEBAC4A00426731 /* DynamicTests.swift in Sources */,
 			);
