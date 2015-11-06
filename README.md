@@ -5,4 +5,4 @@ Swift implementation of the patterns described at Cocoa Design Patterns by Rick 
 2. [Template Method](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Template%20Method)
 3. [Dynamic Creation](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Dynamic%20Creation)
 4. [Extension](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Extension)
-5. [Extension](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Enumerators)
+5. [Enumerators](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Enumerators)
