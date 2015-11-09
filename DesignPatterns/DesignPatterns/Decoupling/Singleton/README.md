@@ -1,5 +1,5 @@
 # Singleton
-[See usage](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatternsTests/Singleton)
+[See usage](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatternsTests/Decoupling/Singleton)
 
 Having only one instance of a given object
 

@@ -1,5 +1,5 @@
 # Initializers
-[See usage](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatternsTests/Creation)
+[See usage](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatternsTests/Basic/Creation)
 
 ### Rule 1
 Designated initializers must call a designated initializer from their immediate superclass.
