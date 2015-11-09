@@ -13,6 +13,8 @@
 		3F111E8D1BF0BEE70013C8D1 /* Archivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111E8C1BF0BEE70013C8D1 /* Archivable.swift */; };
 		3F111E921BF0E6DD0013C8D1 /* CopyMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111E911BF0E6DD0013C8D1 /* CopyMe.swift */; };
 		3F111E941BF0E70D0013C8D1 /* CopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111E931BF0E70D0013C8D1 /* CopyTests.swift */; };
+		3F111E971BF0EDF50013C8D1 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111E961BF0EDF50013C8D1 /* Singleton.swift */; };
+		3F111E9B1BF0EEFE0013C8D1 /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111E9A1BF0EEFE0013C8D1 /* SingletonTests.swift */; };
 		3F451D031BECBDFA005C6C01 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F451D021BECBDFA005C6C01 /* ExtensionTests.swift */; };
 		3F451D051BECD3BE005C6C01 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F451D041BECD3BE005C6C01 /* String.swift */; };
 		3F451D0A1BECF028005C6C01 /* EnumeratorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F451D091BECF028005C6C01 /* EnumeratorsTests.swift */; };
@@ -54,6 +56,9 @@
 		3F111E901BF0E6D00013C8D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F111E911BF0E6DD0013C8D1 /* CopyMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyMe.swift; sourceTree = "<group>"; };
 		3F111E931BF0E70D0013C8D1 /* CopyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyTests.swift; sourceTree = "<group>"; };
+		3F111E961BF0EDF50013C8D1 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		3F111E981BF0EE000013C8D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F111E9A1BF0EEFE0013C8D1 /* SingletonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
 		3F451D001BEC9F30005C6C01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F451D021BECBDFA005C6C01 /* ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		3F451D041BECD3BE005C6C01 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
@@ -137,6 +142,23 @@
 				3F111E931BF0E70D0013C8D1 /* CopyTests.swift */,
 			);
 			path = Copying;
+			sourceTree = "<group>";
+		};
+		3F111E951BF0EDD00013C8D1 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				3F111E981BF0EE000013C8D1 /* README.md */,
+				3F111E961BF0EDF50013C8D1 /* Singleton.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		3F111E991BF0EEDD0013C8D1 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				3F111E9A1BF0EEFE0013C8D1 /* SingletonTests.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 		3F451CFE1BEC9EF9005C6C01 /* Extension */ = {
@@ -259,6 +281,7 @@
 				3F451D061BECEFA4005C6C01 /* Enumerators */,
 				3F111E811BF0BDB70013C8D1 /* Archiving and Unarchiving */,
 				3F111E8E1BF0E6980013C8D1 /* Copying */,
+				3F111E951BF0EDD00013C8D1 /* Singleton */,
 				F9CEBF201BEA631800A19248 /* DesignPatterns.h */,
 				F9CEBF221BEA631800A19248 /* Info.plist */,
 			);
@@ -275,6 +298,7 @@
 				3F451D071BECEFD0005C6C01 /* Enumerators */,
 				3F111E821BF0BDED0013C8D1 /* Archiving and Unarchiving */,
 				3F111E8F1BF0E6B20013C8D1 /* Copying */,
+				3F111E991BF0EEDD0013C8D1 /* Singleton */,
 				F9CEBF2C1BEA631800A19248 /* DesignPatternsTests.swift */,
 				F9CEBF2E1BEA631800A19248 /* Info.plist */,
 			);
@@ -402,6 +426,7 @@
 				3F111E921BF0E6DD0013C8D1 /* CopyMe.swift in Sources */,
 				3F111E8D1BF0BEE70013C8D1 /* Archivable.swift in Sources */,
 				3F111E871BF0BE5D0013C8D1 /* ArchiveB.swift in Sources */,
+				3F111E971BF0EDF50013C8D1 /* Singleton.swift in Sources */,
 				3F7D9F681BEB692200426731 /* Person.swift in Sources */,
 				3F7D9F781BEBA06600426731 /* TemplateA.swift in Sources */,
 			);
@@ -418,6 +443,7 @@
 				3F451D031BECBDFA005C6C01 /* ExtensionTests.swift in Sources */,
 				3F7D9F6E1BEB842A00426731 /* LordTests.swift in Sources */,
 				3F451D0A1BECF028005C6C01 /* EnumeratorsTests.swift in Sources */,
+				3F111E9B1BF0EEFE0013C8D1 /* SingletonTests.swift in Sources */,
 				3F7D9F851BEBAC4A00426731 /* DynamicTests.swift in Sources */,
 				3F111E941BF0E70D0013C8D1 /* CopyTests.swift in Sources */,
 			);
