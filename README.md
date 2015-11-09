@@ -6,4 +6,4 @@ Swift implementation of the patterns described at Cocoa Design Patterns by Rick 
 3. [Dynamic Creation](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Dynamic%20Creation)
 4. [Extension](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Extension)
 5. [Enumerators](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Enumerators)
-6. [Archive and Unarchive](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Archive%20and%20Unarchive)
+6. [Archiving and Unarchiving](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Archiving%20and%20Unarchiving)
