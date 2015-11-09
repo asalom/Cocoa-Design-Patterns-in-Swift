@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F111E851BF0BE540013C8D1 /* ArchiveA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111E841BF0BE540013C8D1 /* ArchiveA.swift */; };
+		3F111E871BF0BE5D0013C8D1 /* ArchiveB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111E861BF0BE5D0013C8D1 /* ArchiveB.swift */; };
+		3F111E8B1BF0BE820013C8D1 /* ArchiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111E8A1BF0BE820013C8D1 /* ArchiveTests.swift */; };
+		3F111E8D1BF0BEE70013C8D1 /* Archivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111E8C1BF0BEE70013C8D1 /* Archivable.swift */; };
 		3F451D031BECBDFA005C6C01 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F451D021BECBDFA005C6C01 /* ExtensionTests.swift */; };
 		3F451D051BECD3BE005C6C01 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F451D041BECD3BE005C6C01 /* String.swift */; };
 		3F451D0A1BECF028005C6C01 /* EnumeratorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F451D091BECF028005C6C01 /* EnumeratorsTests.swift */; };
@@ -40,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F111E831BF0BE050013C8D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F111E841BF0BE540013C8D1 /* ArchiveA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveA.swift; sourceTree = "<group>"; };
+		3F111E861BF0BE5D0013C8D1 /* ArchiveB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveB.swift; sourceTree = "<group>"; };
+		3F111E8A1BF0BE820013C8D1 /* ArchiveTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveTests.swift; sourceTree = "<group>"; };
+		3F111E8C1BF0BEE70013C8D1 /* Archivable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archivable.swift; sourceTree = "<group>"; };
 		3F451D001BEC9F30005C6C01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F451D021BECBDFA005C6C01 /* ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		3F451D041BECD3BE005C6C01 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
@@ -89,6 +98,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F111E811BF0BDB70013C8D1 /* Archiving and Unarchiving */ = {
+			isa = PBXGroup;
+			children = (
+				3F111E831BF0BE050013C8D1 /* README.md */,
+				3F111E841BF0BE540013C8D1 /* ArchiveA.swift */,
+				3F111E861BF0BE5D0013C8D1 /* ArchiveB.swift */,
+				3F111E8C1BF0BEE70013C8D1 /* Archivable.swift */,
+			);
+			path = "Archiving and Unarchiving";
+			sourceTree = "<group>";
+		};
+		3F111E821BF0BDED0013C8D1 /* Archiving and Unarchiving */ = {
+			isa = PBXGroup;
+			children = (
+				3F111E8A1BF0BE820013C8D1 /* ArchiveTests.swift */,
+			);
+			path = "Archiving and Unarchiving";
+			sourceTree = "<group>";
+		};
 		3F451CFE1BEC9EF9005C6C01 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +235,7 @@
 				3F7D9F7F1BEBAB3700426731 /* Dynamic Creation */,
 				3F451CFE1BEC9EF9005C6C01 /* Extension */,
 				3F451D061BECEFA4005C6C01 /* Enumerators */,
+				3F111E811BF0BDB70013C8D1 /* Archiving and Unarchiving */,
 				F9CEBF201BEA631800A19248 /* DesignPatterns.h */,
 				F9CEBF221BEA631800A19248 /* Info.plist */,
 			);
@@ -221,6 +250,7 @@
 				3F7D9F801BEBAB5700426731 /* Dynamic Creation */,
 				3F451CFF1BEC9F16005C6C01 /* Extension */,
 				3F451D071BECEFD0005C6C01 /* Enumerators */,
+				3F111E821BF0BDED0013C8D1 /* Archiving and Unarchiving */,
 				F9CEBF2C1BEA631800A19248 /* DesignPatternsTests.swift */,
 				F9CEBF2E1BEA631800A19248 /* Info.plist */,
 			);
@@ -343,7 +373,10 @@
 				3F7D9F7A1BEBA07200426731 /* TemplateB.swift in Sources */,
 				3F7D9F761BEBA05200426731 /* TemplateBase.swift in Sources */,
 				3F7D9F6C1BEB841300426731 /* Lord.swift in Sources */,
+				3F111E851BF0BE540013C8D1 /* ArchiveA.swift in Sources */,
 				3F7D9F871BEBACD100426731 /* DynamicCommandA.swift in Sources */,
+				3F111E8D1BF0BEE70013C8D1 /* Archivable.swift in Sources */,
+				3F111E871BF0BE5D0013C8D1 /* ArchiveB.swift in Sources */,
 				3F7D9F681BEB692200426731 /* Person.swift in Sources */,
 				3F7D9F781BEBA06600426731 /* TemplateA.swift in Sources */,
 			);
@@ -355,6 +388,7 @@
 			files = (
 				3F7D9F6A1BEB693C00426731 /* PersonTests.swift in Sources */,
 				3F7D9F7C1BEBA08900426731 /* TemplateTests.swift in Sources */,
+				3F111E8B1BF0BE820013C8D1 /* ArchiveTests.swift in Sources */,
 				F9CEBF2D1BEA631800A19248 /* DesignPatternsTests.swift in Sources */,
 				3F451D031BECBDFA005C6C01 /* ExtensionTests.swift in Sources */,
 				3F7D9F6E1BEB842A00426731 /* LordTests.swift in Sources */,
