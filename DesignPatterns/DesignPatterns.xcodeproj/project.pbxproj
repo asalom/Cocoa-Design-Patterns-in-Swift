@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0828221BF20BA5001B9D42 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0828211BF20BA5001B9D42 /* File.swift */; };
+		3F0828241BF20D78001B9D42 /* HierarchiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0828231BF20D78001B9D42 /* HierarchiesTests.swift */; };
 		3F111EBA1BF0F0330013C8D1 /* Archivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111E9E1BF0F0330013C8D1 /* Archivable.swift */; };
 		3F111EBB1BF0F0330013C8D1 /* ArchiveA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111E9F1BF0F0330013C8D1 /* ArchiveA.swift */; };
 		3F111EBC1BF0F0330013C8D1 /* ArchiveB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111EA01BF0F0330013C8D1 /* ArchiveB.swift */; };
@@ -52,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0828201BF20B5A001B9D42 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F0828211BF20BA5001B9D42 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		3F0828231BF20D78001B9D42 /* HierarchiesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HierarchiesTests.swift; sourceTree = "<group>"; };
 		3F111E9E1BF0F0330013C8D1 /* Archivable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archivable.swift; sourceTree = "<group>"; };
 		3F111E9F1BF0F0330013C8D1 /* ArchiveA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveA.swift; sourceTree = "<group>"; };
 		3F111EA01BF0F0330013C8D1 /* ArchiveB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveB.swift; sourceTree = "<group>"; };
@@ -118,6 +123,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F08281E1BF20B1C001B9D42 /* Hierarchies */ = {
+			isa = PBXGroup;
+			children = (
+				3F0828201BF20B5A001B9D42 /* README.md */,
+				3F0828211BF20BA5001B9D42 /* File.swift */,
+			);
+			path = Hierarchies;
+			sourceTree = "<group>";
+		};
+		3F08281F1BF20B3E001B9D42 /* Hierarchies */ = {
+			isa = PBXGroup;
+			children = (
+				3F0828231BF20D78001B9D42 /* HierarchiesTests.swift */,
+			);
+			path = Hierarchies;
+			sourceTree = "<group>";
+		};
 		3F111E9C1BF0EFE70013C8D1 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +231,7 @@
 				3F111ED11BF0F0940013C8D1 /* Singleton */,
 				3F3207F41BF1EF9900AC7DCA /* Notifications */,
 				3F3207FB1BF1F8B900AC7DCA /* Delegates */,
+				3F08281E1BF20B1C001B9D42 /* Hierarchies */,
 			);
 			path = Decoupling;
 			sourceTree = "<group>";
@@ -299,6 +322,7 @@
 				3F111EEF1BF0F0FF0013C8D1 /* Singleton */,
 				3F3207F51BF1EFB400AC7DCA /* Notifications */,
 				3F3207FC1BF1F8EC00AC7DCA /* Delegates */,
+				3F08281F1BF20B3E001B9D42 /* Hierarchies */,
 			);
 			path = Decoupling;
 			sourceTree = "<group>";
@@ -510,6 +534,7 @@
 				3F111EC31BF0F0330013C8D1 /* DynamicCommand.swift in Sources */,
 				3F111ECF1BF0F0330013C8D1 /* TemplateBase.swift in Sources */,
 				3F111EC81BF0F0330013C8D1 /* Node.swift in Sources */,
+				3F0828221BF20BA5001B9D42 /* File.swift in Sources */,
 				3F111EBB1BF0F0330013C8D1 /* ArchiveA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +543,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0828241BF20D78001B9D42 /* HierarchiesTests.swift in Sources */,
 				3F111EE61BF0F0CE0013C8D1 /* ArchiveTests.swift in Sources */,
 				3F3207FA1BF1F09F00AC7DCA /* NotificationsTests.swift in Sources */,
 				3F111EE91BF0F0CE0013C8D1 /* PersonTests.swift in Sources */,
