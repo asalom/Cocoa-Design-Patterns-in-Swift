@@ -14,22 +14,29 @@ class DelegatesTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
-        self.gang = Gang(delegate: self)
+        self.gang = Gang(dataSource: self, delegate: self)
     }
     func testDelegate() {
         self.gang!.fillData()
-        XCTAssertEqual(self.gang!.name!, "The Fantastic Three")
+        XCTAssertEqual(self.gang!.delegate.gangName(), "The Fantastic Three")
+        XCTAssertEqual(self.gang!.delegate.color(), UIColor.redColor())
         XCTAssertEqual(self.gang!.members[0].name, "Funny")
         XCTAssertEqual(self.gang!.members[1].name, "Strongy")
         XCTAssertEqual(self.gang!.members[2].name, "Smarty")
     }
 }
 
-extension DelegatesTests: GangData {
+extension DelegatesTests: GangInfo {
     func gangName() -> String {
         return "The Fantastic Three"
     }
     
+    func color() -> UIColor {
+        return UIColor.redColor()
+    }
+}
+
+extension DelegatesTests: GangMembers {
     func fun() -> Member {
         return Member(name: "Funny")
     }

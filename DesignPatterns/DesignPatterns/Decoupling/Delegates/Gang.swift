@@ -16,23 +16,28 @@ class Member {
 }
 
 class Gang {
-    var name: String?
+    var name: String = "Unnamed"
     var members: [Member] = [Member]()
-    var delegate: GangData
-    init(delegate: GangData) {
+    var dataSource: GangMembers
+    var delegate: GangInfo
+    init(dataSource: GangMembers, delegate: GangInfo) {
+        self.dataSource = dataSource
         self.delegate = delegate
     }
     
     func fillData() {
-        self.name = self.delegate.gangName()
-        self.members.append(self.delegate.fun())
-        self.members.append(self.delegate.strong())
-        self.members.append(self.delegate.smart())
+        self.members.append(self.dataSource.fun())
+        self.members.append(self.dataSource.strong())
+        self.members.append(self.dataSource.smart())
     }
 }
 
-protocol GangData {
+protocol GangInfo {
     func gangName() -> String
+    func color() -> UIColor
+}
+
+protocol GangMembers {
     func fun() -> Member
     func strong() -> Member
     func smart() -> Member
