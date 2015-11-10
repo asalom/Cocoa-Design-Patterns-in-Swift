@@ -13,3 +13,4 @@ Swift implementation of the patterns described at Cocoa Design Patterns by Rick 
 2. Decoupling Petterns
   1. [Singleton](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Decoupling/Singleton)
   2. [Notifications](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Decoupling/Notifications)
+  3. [Delegates](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Decoupling/Delegates)

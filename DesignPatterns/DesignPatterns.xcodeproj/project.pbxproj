@@ -34,6 +34,9 @@
 		3F111EF11BF0F0FF0013C8D1 /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111EF01BF0F0FF0013C8D1 /* SingletonTests.swift */; };
 		3F3207F81BF1F07700AC7DCA /* NotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3207F71BF1F07700AC7DCA /* NotificationSender.swift */; };
 		3F3207FA1BF1F09F00AC7DCA /* NotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3207F91BF1F09F00AC7DCA /* NotificationsTests.swift */; };
+		3F3207FE1BF1F91000AC7DCA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3F3207FD1BF1F91000AC7DCA /* README.md */; };
+		3F3208001BF1F94E00AC7DCA /* Gang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3207FF1BF1F94E00AC7DCA /* Gang.swift */; };
+		3F3208021BF1FA4D00AC7DCA /* DelegatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3208011BF1FA4D00AC7DCA /* DelegatesTests.swift */; };
 		F9CEBF211BEA631800A19248 /* DesignPatterns.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CEBF201BEA631800A19248 /* DesignPatterns.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9CEBF281BEA631800A19248 /* DesignPatterns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CEBF1D1BEA631800A19248 /* DesignPatterns.framework */; };
 		F9CEBF2D1BEA631800A19248 /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CEBF2C1BEA631800A19248 /* DesignPatternsTests.swift */; };
@@ -86,6 +89,9 @@
 		3F3207F61BF1EFD100AC7DCA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F3207F71BF1F07700AC7DCA /* NotificationSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSender.swift; sourceTree = "<group>"; };
 		3F3207F91BF1F09F00AC7DCA /* NotificationsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsTests.swift; sourceTree = "<group>"; };
+		3F3207FD1BF1F91000AC7DCA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F3207FF1BF1F94E00AC7DCA /* Gang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gang.swift; sourceTree = "<group>"; };
+		3F3208011BF1FA4D00AC7DCA /* DelegatesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegatesTests.swift; sourceTree = "<group>"; };
 		F9CEBF1D1BEA631800A19248 /* DesignPatterns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignPatterns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CEBF201BEA631800A19248 /* DesignPatterns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatterns.h; sourceTree = "<group>"; };
 		F9CEBF221BEA631800A19248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -203,6 +209,7 @@
 			children = (
 				3F111ED11BF0F0940013C8D1 /* Singleton */,
 				3F3207F41BF1EF9900AC7DCA /* Notifications */,
+				3F3207FB1BF1F8B900AC7DCA /* Delegates */,
 			);
 			path = Decoupling;
 			sourceTree = "<group>";
@@ -292,6 +299,7 @@
 			children = (
 				3F111EEF1BF0F0FF0013C8D1 /* Singleton */,
 				3F3207F51BF1EFB400AC7DCA /* Notifications */,
+				3F3207FC1BF1F8EC00AC7DCA /* Delegates */,
 			);
 			path = Decoupling;
 			sourceTree = "<group>";
@@ -319,6 +327,23 @@
 				3F3207F91BF1F09F00AC7DCA /* NotificationsTests.swift */,
 			);
 			path = Notifications;
+			sourceTree = "<group>";
+		};
+		3F3207FB1BF1F8B900AC7DCA /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3F3207FD1BF1F91000AC7DCA /* README.md */,
+				3F3207FF1BF1F94E00AC7DCA /* Gang.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		3F3207FC1BF1F8EC00AC7DCA /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3F3208011BF1FA4D00AC7DCA /* DelegatesTests.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 		F9CEBF131BEA631800A19248 = {
@@ -475,6 +500,7 @@
 				3F111ECD1BF0F0330013C8D1 /* TemplateA.swift in Sources */,
 				3F111EC11BF0F0330013C8D1 /* Person.swift in Sources */,
 				3F111EBA1BF0F0330013C8D1 /* Archivable.swift in Sources */,
+				3F3207FE1BF1F91000AC7DCA /* README.md in Sources */,
 				3F111EBC1BF0F0330013C8D1 /* ArchiveB.swift in Sources */,
 				3F111EC71BF0F0330013C8D1 /* LinkedList.swift in Sources */,
 				3F111ECB1BF0F0330013C8D1 /* String.swift in Sources */,
@@ -482,6 +508,7 @@
 				3F111EC41BF0F0330013C8D1 /* DynamicCommandA.swift in Sources */,
 				3F111EC01BF0F0330013C8D1 /* Lord.swift in Sources */,
 				3F3207F81BF1F07700AC7DCA /* NotificationSender.swift in Sources */,
+				3F3208001BF1F94E00AC7DCA /* Gang.swift in Sources */,
 				3F111EC31BF0F0330013C8D1 /* DynamicCommand.swift in Sources */,
 				3F111ECF1BF0F0330013C8D1 /* TemplateBase.swift in Sources */,
 				3F111EC81BF0F0330013C8D1 /* Node.swift in Sources */,
@@ -501,6 +528,7 @@
 				3F111EEB1BF0F0CE0013C8D1 /* EnumeratorsTests.swift in Sources */,
 				3F111EE71BF0F0CE0013C8D1 /* CopyTests.swift in Sources */,
 				3F111EEC1BF0F0CE0013C8D1 /* ExtensionTests.swift in Sources */,
+				3F3208021BF1FA4D00AC7DCA /* DelegatesTests.swift in Sources */,
 				3F111EED1BF0F0CE0013C8D1 /* TemplateTests.swift in Sources */,
 				3F111EF11BF0F0FF0013C8D1 /* SingletonTests.swift in Sources */,
 				3F111EEA1BF0F0CE0013C8D1 /* DynamicTests.swift in Sources */,
