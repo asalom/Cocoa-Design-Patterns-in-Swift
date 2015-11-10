@@ -34,7 +34,6 @@
 		3F111EF11BF0F0FF0013C8D1 /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111EF01BF0F0FF0013C8D1 /* SingletonTests.swift */; };
 		3F3207F81BF1F07700AC7DCA /* NotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3207F71BF1F07700AC7DCA /* NotificationSender.swift */; };
 		3F3207FA1BF1F09F00AC7DCA /* NotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3207F91BF1F09F00AC7DCA /* NotificationsTests.swift */; };
-		3F3207FE1BF1F91000AC7DCA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3F3207FD1BF1F91000AC7DCA /* README.md */; };
 		3F3208001BF1F94E00AC7DCA /* Gang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3207FF1BF1F94E00AC7DCA /* Gang.swift */; };
 		3F3208021BF1FA4D00AC7DCA /* DelegatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3208011BF1FA4D00AC7DCA /* DelegatesTests.swift */; };
 		F9CEBF211BEA631800A19248 /* DesignPatterns.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CEBF201BEA631800A19248 /* DesignPatterns.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -500,7 +499,6 @@
 				3F111ECD1BF0F0330013C8D1 /* TemplateA.swift in Sources */,
 				3F111EC11BF0F0330013C8D1 /* Person.swift in Sources */,
 				3F111EBA1BF0F0330013C8D1 /* Archivable.swift in Sources */,
-				3F3207FE1BF1F91000AC7DCA /* README.md in Sources */,
 				3F111EBC1BF0F0330013C8D1 /* ArchiveB.swift in Sources */,
 				3F111EC71BF0F0330013C8D1 /* LinkedList.swift in Sources */,
 				3F111ECB1BF0F0330013C8D1 /* String.swift in Sources */,

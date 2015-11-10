@@ -18,6 +18,7 @@ class DelegatesTests: XCTestCase {
     }
     func testDelegate() {
         self.gang!.fillData()
+        XCTAssertEqual(self.gang!.name!, "The Fantastic Three")
         XCTAssertEqual(self.gang!.members[0].name, "Funny")
         XCTAssertEqual(self.gang!.members[1].name, "Strongy")
         XCTAssertEqual(self.gang!.members[2].name, "Smarty")
@@ -25,6 +26,10 @@ class DelegatesTests: XCTestCase {
 }
 
 extension DelegatesTests: GangData {
+    func gangName() -> String {
+        return "The Fantastic Three"
+    }
+    
     func fun() -> Member {
         return Member(name: "Funny")
     }

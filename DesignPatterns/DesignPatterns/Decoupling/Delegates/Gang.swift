@@ -16,6 +16,7 @@ class Member {
 }
 
 class Gang {
+    var name: String?
     var members: [Member] = [Member]()
     var delegate: GangData
     init(delegate: GangData) {
@@ -23,6 +24,7 @@ class Gang {
     }
     
     func fillData() {
+        self.name = self.delegate.gangName()
         self.members.append(self.delegate.fun())
         self.members.append(self.delegate.strong())
         self.members.append(self.delegate.smart())
@@ -30,6 +32,7 @@ class Gang {
 }
 
 protocol GangData {
+    func gangName() -> String
     func fun() -> Member
     func strong() -> Member
     func smart() -> Member
