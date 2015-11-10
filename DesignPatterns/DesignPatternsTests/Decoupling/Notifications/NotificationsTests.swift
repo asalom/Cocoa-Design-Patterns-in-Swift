@@ -15,7 +15,6 @@ class NotificationsTests: XCTestCase {
     var receivedMessage: String?
     
     override func setUp() {
-        
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "receiveNotification:", name:NotificationKey, object: nil)
     }
     
