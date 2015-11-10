@@ -18,29 +18,37 @@ class MoneyPile {
         self.nextPile = nextPile
     }
     
-    func canWithdraw(var value: Int) -> Bool {
-        
-        func canTakeSomeBill(want: Int) -> Bool {
-            return (want / self.value) > 0
-        }
-        
+    func canWithdraw(var amount: Int) -> Bool {
+        takeAllAvailableBillsGiven(&amount)
+        return forwardWithdrawalToNextPile(amount)
+    }
+    
+    private func takeAllAvailableBillsGiven(inout amount: Int) {
         var quantity = self.quantity
         
-        while canTakeSomeBill(value) {
+        while canTakeSomeBill(amount) {
             if quantity == 0 {
                 break;
             }
             
-            value -= self.value
+            amount -= self.value
             quantity -= 1
         }
-        
-        if value == 0 {
+    }
+    
+    private func canTakeSomeBill(want: Int) -> Bool {
+        return (want / self.value) > 0
+    }
+    
+    private func forwardWithdrawalToNextPile(amount: Int) -> Bool {
+        if amount == 0 {
             return true
         } else if let next = self.nextPile {
-            return next.canWithdraw(value)
+            return next.canWithdraw(amount)
         }
         
         return false
     }
+    
+    
 }
