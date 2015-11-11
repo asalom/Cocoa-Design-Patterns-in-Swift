@@ -21,3 +21,5 @@ Swift implementation of the patterns described at Cocoa Design Patterns by Rick 
   8. [Flyweight](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Decoupling/Flyweight)
   9. [Decorator](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Decoupling/Decorator)
 
+3. Hide Complexity Petterns
+  1. [Abstract Factory](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Hide%20Complexity/Abstract%20Factory)
