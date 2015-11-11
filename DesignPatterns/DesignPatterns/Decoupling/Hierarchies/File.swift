@@ -26,18 +26,30 @@ class File {
     }
 }
 
+func ==(lhs: File, rhs: File) -> Bool {
+    return lhs.name == lhs.name
+}
+
+extension File: Hashable, Equatable {
+    var hashValue : Int {
+        get {
+            return self.name.hash
+        }
+    }
+}
+
 class Directory: File {
-    var files: [File] = [File]()
+    var files: Set<File> = Set<File>()
     
     func addFile(fileName: String) -> File {
         let file = File(name: fileName, parent: self)
-        files.append(file)
+        files.insert(file)
         return file
     }
     
     func addDirectory(directoryName: String) -> Directory {
         let directory = Directory(name: directoryName, parent: self)
-        files.append(directory)
+        files.insert(directory)
         return directory
     }
     
