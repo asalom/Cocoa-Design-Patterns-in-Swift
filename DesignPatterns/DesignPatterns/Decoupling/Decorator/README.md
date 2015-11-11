@@ -7,4 +7,5 @@ It is used to extend or alter the functionality of objects at runtime by wrappin
 
 Sources:
 1. https://en.wikipedia.org/wiki/Decorator_pattern#Example_in_Swift
+
 2. https://github.com/ochococo/Design-Patterns-In-Swift#structural
