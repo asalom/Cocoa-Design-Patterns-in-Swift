@@ -41,9 +41,10 @@
 		3F61BEC81BF3504700A78A4E /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61BEC71BF3504700A78A4E /* Door.swift */; };
 		3F61BECA1BF3507000A78A4E /* DoorCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61BEC91BF3507000A78A4E /* DoorCommands.swift */; };
 		3F61BECC1BF350E700A78A4E /* CommandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61BECB1BF350E700A78A4E /* CommandTests.swift */; };
-		3F61BED01BF3564D00A78A4E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3F61BECF1BF3564D00A78A4E /* README.md */; };
 		3F61BED21BF35E5100A78A4E /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61BED11BF35E5100A78A4E /* Label.swift */; };
 		3F61BED41BF35F2800A78A4E /* PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61BED31BF35F2800A78A4E /* PrototypeTests.swift */; };
+		3F61BED91BF36D3400A78A4E /* CoffeeShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61BED81BF36D3400A78A4E /* CoffeeShop.swift */; };
+		3F61BEDB1BF36FDC00A78A4E /* FlyweightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61BEDA1BF36FDC00A78A4E /* FlyweightTests.swift */; };
 		F98341751BF258F300CF0661 /* MoneyPile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98341741BF258F300CF0661 /* MoneyPile.swift */; };
 		F98341771BF25A1B00CF0661 /* ATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98341761BF25A1B00CF0661 /* ATM.swift */; };
 		F98341791BF25B0000CF0661 /* ResponsabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98341781BF25B0000CF0661 /* ResponsabilityTests.swift */; };
@@ -112,6 +113,9 @@
 		3F61BECF1BF3564D00A78A4E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F61BED11BF35E5100A78A4E /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		3F61BED31BF35F2800A78A4E /* PrototypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrototypeTests.swift; sourceTree = "<group>"; };
+		3F61BED71BF36C7500A78A4E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F61BED81BF36D3400A78A4E /* CoffeeShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeShop.swift; sourceTree = "<group>"; };
+		3F61BEDA1BF36FDC00A78A4E /* FlyweightTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyweightTests.swift; sourceTree = "<group>"; };
 		F98341731BF24CD500CF0661 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F98341741BF258F300CF0661 /* MoneyPile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyPile.swift; sourceTree = "<group>"; };
 		F98341761BF25A1B00CF0661 /* ATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATM.swift; sourceTree = "<group>"; };
@@ -255,6 +259,7 @@
 				F98341711BF24C8C00CF0661 /* Chain of Responsability */,
 				3F61BEC41BF34F3C00A78A4E /* Command */,
 				3F61BECD1BF3561600A78A4E /* Prototype */,
+				3F61BED51BF36C4800A78A4E /* Flyweight */,
 			);
 			path = Decoupling;
 			sourceTree = "<group>";
@@ -349,6 +354,7 @@
 				F98341721BF24CB100CF0661 /* Chain of Responsability */,
 				3F61BEC51BF34F6100A78A4E /* Command */,
 				3F61BECE1BF3563800A78A4E /* Prototype */,
+				3F61BED61BF36C5D00A78A4E /* Flyweight */,
 			);
 			path = Decoupling;
 			sourceTree = "<group>";
@@ -429,6 +435,23 @@
 			);
 			name = Prototype;
 			path = ../Prototype;
+			sourceTree = "<group>";
+		};
+		3F61BED51BF36C4800A78A4E /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				3F61BED71BF36C7500A78A4E /* README.md */,
+				3F61BED81BF36D3400A78A4E /* CoffeeShop.swift */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		3F61BED61BF36C5D00A78A4E /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				3F61BEDA1BF36FDC00A78A4E /* FlyweightTests.swift */,
+			);
+			path = Flyweight;
 			sourceTree = "<group>";
 		};
 		F98341711BF24C8C00CF0661 /* Chain of Responsability */ = {
@@ -603,7 +626,6 @@
 				3F111EC51BF0F0330013C8D1 /* DynamicCommandB.swift in Sources */,
 				3F111ECD1BF0F0330013C8D1 /* TemplateA.swift in Sources */,
 				3F111EC11BF0F0330013C8D1 /* Person.swift in Sources */,
-				3F61BED01BF3564D00A78A4E /* README.md in Sources */,
 				3F111EBA1BF0F0330013C8D1 /* Archivable.swift in Sources */,
 				3F61BED21BF35E5100A78A4E /* Label.swift in Sources */,
 				3F111EBC1BF0F0330013C8D1 /* ArchiveB.swift in Sources */,
@@ -622,6 +644,7 @@
 				3F0828221BF20BA5001B9D42 /* File.swift in Sources */,
 				3F111EBB1BF0F0330013C8D1 /* ArchiveA.swift in Sources */,
 				3F61BECA1BF3507000A78A4E /* DoorCommands.swift in Sources */,
+				3F61BED91BF36D3400A78A4E /* CoffeeShop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,6 +667,7 @@
 				3F3208021BF1FA4D00AC7DCA /* DelegatesTests.swift in Sources */,
 				3F111EED1BF0F0CE0013C8D1 /* TemplateTests.swift in Sources */,
 				3F111EF11BF0F0FF0013C8D1 /* SingletonTests.swift in Sources */,
+				3F61BEDB1BF36FDC00A78A4E /* FlyweightTests.swift in Sources */,
 				3F111EEA1BF0F0CE0013C8D1 /* DynamicTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
