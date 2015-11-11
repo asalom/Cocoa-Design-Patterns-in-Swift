@@ -16,3 +16,5 @@ Swift implementation of the patterns described at Cocoa Design Patterns by Rick 
   3. [Delegates](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Decoupling/Delegates)
   4. [Hierarchies](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Decoupling/Hierarchies)
   5. [Chain of Responsability](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Decoupling/Chain%20of%20Responsability)
+  6. [Command](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Decoupling/Command)
+
