@@ -51,6 +51,8 @@
 		3FE250E11BF49E7C004F472A /* AbstractFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE250E01BF49E7C004F472A /* AbstractFactoryTests.swift */; };
 		3FE250E61BF4BBC0004F472A /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE250E51BF4BBC0004F472A /* Facade.swift */; };
 		3FE250E81BF4BBD1004F472A /* FacadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE250E71BF4BBD1004F472A /* FacadeTests.swift */; };
+		3FE250ED1BF4E714004F472A /* VirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE250EC1BF4E714004F472A /* VirtualProxy.swift */; };
+		3FE250EF1BF4E722004F472A /* VirtualProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE250EE1BF4E722004F472A /* VirtualProxyTests.swift */; };
 		F98341751BF258F300CF0661 /* MoneyPile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98341741BF258F300CF0661 /* MoneyPile.swift */; };
 		F98341771BF25A1B00CF0661 /* ATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98341761BF25A1B00CF0661 /* ATM.swift */; };
 		F98341791BF25B0000CF0661 /* ResponsabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98341781BF25B0000CF0661 /* ResponsabilityTests.swift */; };
@@ -131,6 +133,9 @@
 		3FE250E41BF4B47A004F472A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FE250E51BF4BBC0004F472A /* Facade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		3FE250E71BF4BBD1004F472A /* FacadeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacadeTests.swift; sourceTree = "<group>"; };
+		3FE250EB1BF4DA20004F472A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FE250EC1BF4E714004F472A /* VirtualProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualProxy.swift; sourceTree = "<group>"; };
+		3FE250EE1BF4E722004F472A /* VirtualProxyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualProxyTests.swift; sourceTree = "<group>"; };
 		F98341731BF24CD500CF0661 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F98341741BF258F300CF0661 /* MoneyPile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyPile.swift; sourceTree = "<group>"; };
 		F98341761BF25A1B00CF0661 /* ATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATM.swift; sourceTree = "<group>"; };
@@ -484,6 +489,7 @@
 			children = (
 				3F61BEE81BF3937900A78A4E /* Abstract Factory */,
 				3FE250E21BF4B421004F472A /* Facade */,
+				3FE250E91BF4D75B004F472A /* Proxy */,
 			);
 			path = "Hide Complexity";
 			sourceTree = "<group>";
@@ -493,6 +499,7 @@
 			children = (
 				3FE250DF1BF49E5F004F472A /* Abstract Factory */,
 				3FE250E31BF4B448004F472A /* Facade */,
+				3FE250EA1BF4DA0B004F472A /* Proxy */,
 			);
 			path = "Hide Complexity";
 			sourceTree = "<group>";
@@ -537,6 +544,23 @@
 				3FE250E71BF4BBD1004F472A /* FacadeTests.swift */,
 			);
 			path = Facade;
+			sourceTree = "<group>";
+		};
+		3FE250E91BF4D75B004F472A /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				3FE250EB1BF4DA20004F472A /* README.md */,
+				3FE250EC1BF4E714004F472A /* VirtualProxy.swift */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		3FE250EA1BF4DA0B004F472A /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				3FE250EE1BF4E722004F472A /* VirtualProxyTests.swift */,
+			);
+			path = Proxy;
 			sourceTree = "<group>";
 		};
 		F98341711BF24C8C00CF0661 /* Chain of Responsability */ = {
@@ -711,6 +735,7 @@
 				F98341751BF258F300CF0661 /* MoneyPile.swift in Sources */,
 				3F111EBE1BF0F0330013C8D1 /* CopyMe.swift in Sources */,
 				3FE250E61BF4BBC0004F472A /* Facade.swift in Sources */,
+				3FE250ED1BF4E714004F472A /* VirtualProxy.swift in Sources */,
 				3F111ED51BF0F0940013C8D1 /* Singleton.swift in Sources */,
 				3F111EC51BF0F0330013C8D1 /* DynamicCommandB.swift in Sources */,
 				3F111ECD1BF0F0330013C8D1 /* TemplateA.swift in Sources */,
@@ -752,6 +777,7 @@
 				3FE250E11BF49E7C004F472A /* AbstractFactoryTests.swift in Sources */,
 				3F61BECC1BF350E700A78A4E /* CommandTests.swift in Sources */,
 				F9CEBF2D1BEA631800A19248 /* DesignPatternsTests.swift in Sources */,
+				3FE250EF1BF4E722004F472A /* VirtualProxyTests.swift in Sources */,
 				3F111EEB1BF0F0CE0013C8D1 /* EnumeratorsTests.swift in Sources */,
 				3F111EE71BF0F0CE0013C8D1 /* CopyTests.swift in Sources */,
 				3F61BEE21BF3865400A78A4E /* DecoratorTests.swift in Sources */,

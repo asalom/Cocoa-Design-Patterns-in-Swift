@@ -18,4 +18,4 @@ func drawRect(_ rect: CGRect)
 3. All subclasses may require unrelated customization.
 
 ### NOTE
-Consir using delegates or blocks
+Consider using delegates or blocks
