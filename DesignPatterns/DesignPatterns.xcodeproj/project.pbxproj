@@ -47,6 +47,8 @@
 		3F61BEE01BF3861D00A78A4E /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61BEDF1BF3861D00A78A4E /* Coffee.swift */; };
 		3F61BEE21BF3865400A78A4E /* DecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61BEE11BF3865400A78A4E /* DecoratorTests.swift */; };
 		3F61BEE71BF38CBE00A78A4E /* PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61BEE61BF38CBE00A78A4E /* PrototypeTests.swift */; };
+		3FE250DE1BF49D6D004F472A /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE250DD1BF49D6D004F472A /* AbstractFactory.swift */; };
+		3FE250E11BF49E7C004F472A /* AbstractFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE250E01BF49E7C004F472A /* AbstractFactoryTests.swift */; };
 		F98341751BF258F300CF0661 /* MoneyPile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98341741BF258F300CF0661 /* MoneyPile.swift */; };
 		F98341771BF25A1B00CF0661 /* ATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98341761BF25A1B00CF0661 /* ATM.swift */; };
 		F98341791BF25B0000CF0661 /* ResponsabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98341781BF25B0000CF0661 /* ResponsabilityTests.swift */; };
@@ -122,6 +124,8 @@
 		3F61BEE11BF3865400A78A4E /* DecoratorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoratorTests.swift; sourceTree = "<group>"; };
 		3F61BEE61BF38CBE00A78A4E /* PrototypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrototypeTests.swift; sourceTree = "<group>"; };
 		3F61BEE91BF3939E00A78A4E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FE250DD1BF49D6D004F472A /* AbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		3FE250E01BF49E7C004F472A /* AbstractFactoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactoryTests.swift; sourceTree = "<group>"; };
 		F98341731BF24CD500CF0661 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F98341741BF258F300CF0661 /* MoneyPile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyPile.swift; sourceTree = "<group>"; };
 		F98341761BF25A1B00CF0661 /* ATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATM.swift; sourceTree = "<group>"; };
@@ -481,6 +485,7 @@
 		3F61BEE41BF38C9600A78A4E /* Hide Complexity */ = {
 			isa = PBXGroup;
 			children = (
+				3FE250DF1BF49E5F004F472A /* Abstract Factory */,
 			);
 			path = "Hide Complexity";
 			sourceTree = "<group>";
@@ -497,6 +502,15 @@
 			isa = PBXGroup;
 			children = (
 				3F61BEE91BF3939E00A78A4E /* README.md */,
+				3FE250DD1BF49D6D004F472A /* AbstractFactory.swift */,
+			);
+			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		3FE250DF1BF49E5F004F472A /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				3FE250E01BF49E7C004F472A /* AbstractFactoryTests.swift */,
 			);
 			path = "Abstract Factory";
 			sourceTree = "<group>";
@@ -669,6 +683,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE250DE1BF49D6D004F472A /* AbstractFactory.swift in Sources */,
 				F98341751BF258F300CF0661 /* MoneyPile.swift in Sources */,
 				3F111EBE1BF0F0330013C8D1 /* CopyMe.swift in Sources */,
 				3F111ED51BF0F0940013C8D1 /* Singleton.swift in Sources */,
@@ -709,6 +724,7 @@
 				3F61BEE71BF38CBE00A78A4E /* PrototypeTests.swift in Sources */,
 				3F111EE81BF0F0CE0013C8D1 /* LordTests.swift in Sources */,
 				F98341791BF25B0000CF0661 /* ResponsabilityTests.swift in Sources */,
+				3FE250E11BF49E7C004F472A /* AbstractFactoryTests.swift in Sources */,
 				3F61BECC1BF350E700A78A4E /* CommandTests.swift in Sources */,
 				F9CEBF2D1BEA631800A19248 /* DesignPatternsTests.swift in Sources */,
 				3F111EEB1BF0F0CE0013C8D1 /* EnumeratorsTests.swift in Sources */,
