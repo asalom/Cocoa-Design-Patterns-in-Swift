@@ -49,6 +49,8 @@
 		3F61BEE71BF38CBE00A78A4E /* PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61BEE61BF38CBE00A78A4E /* PrototypeTests.swift */; };
 		3FE250DE1BF49D6D004F472A /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE250DD1BF49D6D004F472A /* AbstractFactory.swift */; };
 		3FE250E11BF49E7C004F472A /* AbstractFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE250E01BF49E7C004F472A /* AbstractFactoryTests.swift */; };
+		3FE250E61BF4BBC0004F472A /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE250E51BF4BBC0004F472A /* Facade.swift */; };
+		3FE250E81BF4BBD1004F472A /* FacadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE250E71BF4BBD1004F472A /* FacadeTests.swift */; };
 		F98341751BF258F300CF0661 /* MoneyPile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98341741BF258F300CF0661 /* MoneyPile.swift */; };
 		F98341771BF25A1B00CF0661 /* ATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98341761BF25A1B00CF0661 /* ATM.swift */; };
 		F98341791BF25B0000CF0661 /* ResponsabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98341781BF25B0000CF0661 /* ResponsabilityTests.swift */; };
@@ -126,6 +128,9 @@
 		3F61BEE91BF3939E00A78A4E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FE250DD1BF49D6D004F472A /* AbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		3FE250E01BF49E7C004F472A /* AbstractFactoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactoryTests.swift; sourceTree = "<group>"; };
+		3FE250E41BF4B47A004F472A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FE250E51BF4BBC0004F472A /* Facade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		3FE250E71BF4BBD1004F472A /* FacadeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacadeTests.swift; sourceTree = "<group>"; };
 		F98341731BF24CD500CF0661 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F98341741BF258F300CF0661 /* MoneyPile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyPile.swift; sourceTree = "<group>"; };
 		F98341761BF25A1B00CF0661 /* ATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATM.swift; sourceTree = "<group>"; };
@@ -478,6 +483,7 @@
 			isa = PBXGroup;
 			children = (
 				3F61BEE81BF3937900A78A4E /* Abstract Factory */,
+				3FE250E21BF4B421004F472A /* Facade */,
 			);
 			path = "Hide Complexity";
 			sourceTree = "<group>";
@@ -486,6 +492,7 @@
 			isa = PBXGroup;
 			children = (
 				3FE250DF1BF49E5F004F472A /* Abstract Factory */,
+				3FE250E31BF4B448004F472A /* Facade */,
 			);
 			path = "Hide Complexity";
 			sourceTree = "<group>";
@@ -513,6 +520,23 @@
 				3FE250E01BF49E7C004F472A /* AbstractFactoryTests.swift */,
 			);
 			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		3FE250E21BF4B421004F472A /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				3FE250E41BF4B47A004F472A /* README.md */,
+				3FE250E51BF4BBC0004F472A /* Facade.swift */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		3FE250E31BF4B448004F472A /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				3FE250E71BF4BBD1004F472A /* FacadeTests.swift */,
+			);
+			path = Facade;
 			sourceTree = "<group>";
 		};
 		F98341711BF24C8C00CF0661 /* Chain of Responsability */ = {
@@ -686,6 +710,7 @@
 				3FE250DE1BF49D6D004F472A /* AbstractFactory.swift in Sources */,
 				F98341751BF258F300CF0661 /* MoneyPile.swift in Sources */,
 				3F111EBE1BF0F0330013C8D1 /* CopyMe.swift in Sources */,
+				3FE250E61BF4BBC0004F472A /* Facade.swift in Sources */,
 				3F111ED51BF0F0940013C8D1 /* Singleton.swift in Sources */,
 				3F111EC51BF0F0330013C8D1 /* DynamicCommandB.swift in Sources */,
 				3F111ECD1BF0F0330013C8D1 /* TemplateA.swift in Sources */,
@@ -736,6 +761,7 @@
 				3F111EF11BF0F0FF0013C8D1 /* SingletonTests.swift in Sources */,
 				3F61BEDB1BF36FDC00A78A4E /* FlyweightTests.swift in Sources */,
 				3F111EEA1BF0F0CE0013C8D1 /* DynamicTests.swift in Sources */,
+				3FE250E81BF4BBD1004F472A /* FacadeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

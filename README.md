@@ -23,3 +23,4 @@ Swift implementation of the patterns described at Cocoa Design Patterns by Rick 
 
 3. Hide Complexity Petterns
   1. [Abstract Factory](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Hide%20Complexity/Abstract%20Factory)
+  2. [Façade](https://github.com/asalom/Cocoa-Design-Patterns-in-Swift/tree/master/DesignPatterns/DesignPatterns/Hide%20Complexity/Facade)
