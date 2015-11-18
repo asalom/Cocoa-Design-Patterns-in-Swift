@@ -34,6 +34,8 @@
 		3F111EEC1BF0F0CE0013C8D1 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111EE31BF0F0CE0013C8D1 /* ExtensionTests.swift */; };
 		3F111EED1BF0F0CE0013C8D1 /* TemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111EE51BF0F0CE0013C8D1 /* TemplateTests.swift */; };
 		3F111EF11BF0F0FF0013C8D1 /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F111EF01BF0F0FF0013C8D1 /* SingletonTests.swift */; };
+		3F1C6FE91BFC904900525705 /* ProtectionProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C6FE81BFC904900525705 /* ProtectionProxy.swift */; };
+		3F1C6FEB1BFC906400525705 /* ProtectionProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C6FEA1BFC906400525705 /* ProtectionProxyTests.swift */; };
 		3F3207F81BF1F07700AC7DCA /* NotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3207F71BF1F07700AC7DCA /* NotificationSender.swift */; };
 		3F3207FA1BF1F09F00AC7DCA /* NotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3207F91BF1F09F00AC7DCA /* NotificationsTests.swift */; };
 		3F3208001BF1F94E00AC7DCA /* Gang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3207FF1BF1F94E00AC7DCA /* Gang.swift */; };
@@ -108,6 +110,9 @@
 		3F111EE31BF0F0CE0013C8D1 /* ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		3F111EE51BF0F0CE0013C8D1 /* TemplateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateTests.swift; sourceTree = "<group>"; };
 		3F111EF01BF0F0FF0013C8D1 /* SingletonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
+		3F1C6FE71BFC8F7E00525705 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F1C6FE81BFC904900525705 /* ProtectionProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectionProxy.swift; sourceTree = "<group>"; };
+		3F1C6FEA1BFC906400525705 /* ProtectionProxyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectionProxyTests.swift; sourceTree = "<group>"; };
 		3F3207F61BF1EFD100AC7DCA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F3207F71BF1F07700AC7DCA /* NotificationSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSender.swift; sourceTree = "<group>"; };
 		3F3207F91BF1F09F00AC7DCA /* NotificationsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsTests.swift; sourceTree = "<group>"; };
@@ -389,6 +394,21 @@
 			path = Singleton;
 			sourceTree = "<group>";
 		};
+		3F1C6FE51BFC8F5000525705 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C6FE71BFC8F7E00525705 /* README.md */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		3F1C6FE61BFC8F6600525705 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
 		3F3207F41BF1EF9900AC7DCA /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,6 +510,7 @@
 				3F61BEE81BF3937900A78A4E /* Abstract Factory */,
 				3FE250E21BF4B421004F472A /* Facade */,
 				3FE250E91BF4D75B004F472A /* Proxy */,
+				3F1C6FE51BFC8F5000525705 /* Mediator */,
 			);
 			path = "Hide Complexity";
 			sourceTree = "<group>";
@@ -500,6 +521,7 @@
 				3FE250DF1BF49E5F004F472A /* Abstract Factory */,
 				3FE250E31BF4B448004F472A /* Facade */,
 				3FE250EA1BF4DA0B004F472A /* Proxy */,
+				3F1C6FE61BFC8F6600525705 /* Mediator */,
 			);
 			path = "Hide Complexity";
 			sourceTree = "<group>";
@@ -551,6 +573,7 @@
 			children = (
 				3FE250EB1BF4DA20004F472A /* README.md */,
 				3FE250EC1BF4E714004F472A /* VirtualProxy.swift */,
+				3F1C6FE81BFC904900525705 /* ProtectionProxy.swift */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -559,6 +582,7 @@
 			isa = PBXGroup;
 			children = (
 				3FE250EE1BF4E722004F472A /* VirtualProxyTests.swift */,
+				3F1C6FEA1BFC906400525705 /* ProtectionProxyTests.swift */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -752,6 +776,7 @@
 				3F111EC01BF0F0330013C8D1 /* Lord.swift in Sources */,
 				3F3207F81BF1F07700AC7DCA /* NotificationSender.swift in Sources */,
 				3F3208001BF1F94E00AC7DCA /* Gang.swift in Sources */,
+				3F1C6FE91BFC904900525705 /* ProtectionProxy.swift in Sources */,
 				3F111EC31BF0F0330013C8D1 /* DynamicCommand.swift in Sources */,
 				3F111ECF1BF0F0330013C8D1 /* TemplateBase.swift in Sources */,
 				3F111EC81BF0F0330013C8D1 /* Node.swift in Sources */,
@@ -774,6 +799,7 @@
 				3F61BEE71BF38CBE00A78A4E /* PrototypeTests.swift in Sources */,
 				3F111EE81BF0F0CE0013C8D1 /* LordTests.swift in Sources */,
 				F98341791BF25B0000CF0661 /* ResponsabilityTests.swift in Sources */,
+				3F1C6FEB1BFC906400525705 /* ProtectionProxyTests.swift in Sources */,
 				3FE250E11BF49E7C004F472A /* AbstractFactoryTests.swift in Sources */,
 				3F61BECC1BF350E700A78A4E /* CommandTests.swift in Sources */,
 				F9CEBF2D1BEA631800A19248 /* DesignPatternsTests.swift in Sources */,
