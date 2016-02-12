@@ -1,0 +1,719 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.9216494845360824" branch-rate="1.0000000000000000" lines-covered="447" lines-valid="485" branches-covered="0" branches-valid="0" complexity="0.0" timestamp="1455273750" version="Slather 1.7.2">
+  <sources>
+    <source>/Users/asalom/dev/github/Cocoa-Design-Patterns-in-Swift/DesignPatterns</source>
+  </sources>
+  <packages>
+    <package name="DesignPatterns.Basic.Archiving and Unarchiving" line-rate="0.8367346938775511" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="ArchiveA" filename="DesignPatterns/Basic/Archiving and Unarchiving/ArchiveA.swift" line-rate="0.9615384615384616" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="false" hits="1"/>
+            <line number="14" branch="false" hits="1"/>
+            <line number="15" branch="false" hits="1"/>
+            <line number="17" branch="false" hits="2"/>
+            <line number="18" branch="false" hits="2"/>
+            <line number="19" branch="false" hits="2"/>
+            <line number="20" branch="false" hits="2"/>
+            <line number="22" branch="false" hits="1"/>
+            <line number="23" branch="false" hits="1"/>
+            <line number="24" branch="false" hits="1"/>
+            <line number="25" branch="false" hits="1"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="1"/>
+            <line number="31" branch="false" hits="1"/>
+            <line number="32" branch="false" hits="1"/>
+            <line number="33" branch="false" hits="1"/>
+            <line number="34" branch="false" hits="1"/>
+            <line number="36" branch="false" hits="1"/>
+            <line number="37" branch="false" hits="1"/>
+            <line number="38" branch="false" hits="1"/>
+            <line number="40" branch="false" hits="1"/>
+            <line number="41" branch="false" hits="1"/>
+            <line number="42" branch="false" hits="1"/>
+            <line number="44" branch="false" hits="1"/>
+            <line number="45" branch="false" hits="1"/>
+            <line number="46" branch="false" hits="1"/>
+          </lines>
+        </class>
+        <class name="ArchiveB" filename="DesignPatterns/Basic/Archiving and Unarchiving/ArchiveB.swift" line-rate="0.6956521739130435" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="false" hits="4"/>
+            <line number="14" branch="false" hits="4"/>
+            <line number="15" branch="false" hits="4"/>
+            <line number="16" branch="false" hits="4"/>
+            <line number="18" branch="false" hits="1"/>
+            <line number="19" branch="false" hits="1"/>
+            <line number="20" branch="false" hits="1"/>
+            <line number="21" branch="false" hits="1"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="1"/>
+            <line number="27" branch="false" hits="1"/>
+            <line number="28" branch="false" hits="1"/>
+            <line number="29" branch="false" hits="1"/>
+            <line number="30" branch="false" hits="1"/>
+            <line number="32" branch="false" hits="1"/>
+            <line number="33" branch="false" hits="1"/>
+            <line number="34" branch="false" hits="1"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Basic.Copying" line-rate="0.7142857142857143" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="CopyMe" filename="DesignPatterns/Basic/Copying/CopyMe.swift" line-rate="0.7142857142857143" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="17" branch="false" hits="1"/>
+            <line number="18" branch="false" hits="1"/>
+            <line number="19" branch="false" hits="1"/>
+            <line number="20" branch="false" hits="1"/>
+            <line number="21" branch="false" hits="1"/>
+            <line number="22" branch="false" hits="1"/>
+            <line number="23" branch="false" hits="1"/>
+            <line number="25" branch="false" hits="1"/>
+            <line number="26" branch="false" hits="1"/>
+            <line number="27" branch="false" hits="1"/>
+            <line number="28" branch="false" hits="1"/>
+            <line number="29" branch="false" hits="1"/>
+            <line number="30" branch="false" hits="1"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="1"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="1"/>
+            <line number="47" branch="false" hits="1"/>
+            <line number="48" branch="false" hits="1"/>
+            <line number="49" branch="false" hits="1"/>
+            <line number="50" branch="false" hits="1"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Basic.Creation" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Lord" filename="DesignPatterns/Basic/Creation/Lord.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="19" branch="false" hits="3"/>
+            <line number="20" branch="false" hits="3"/>
+            <line number="21" branch="false" hits="3"/>
+            <line number="22" branch="false" hits="3"/>
+            <line number="24" branch="false" hits="1"/>
+            <line number="25" branch="false" hits="1"/>
+            <line number="26" branch="false" hits="1"/>
+            <line number="27" branch="false" hits="1"/>
+          </lines>
+        </class>
+        <class name="Person" filename="DesignPatterns/Basic/Creation/Person.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="17" branch="false" hits="1"/>
+            <line number="18" branch="false" hits="1"/>
+            <line number="19" branch="false" hits="1"/>
+            <line number="22" branch="false" hits="5"/>
+            <line number="23" branch="false" hits="5"/>
+            <line number="24" branch="false" hits="5"/>
+            <line number="25" branch="false" hits="5"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Basic.Dynamic Creation" line-rate="0.6666666666666666" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="DynamicCommand" filename="DesignPatterns/Basic/Dynamic Creation/DynamicCommand.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="10" branch="false" hits="0"/>
+            <line number="11" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="DynamicCommandA" filename="DesignPatterns/Basic/Dynamic Creation/DynamicCommandA.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="11" branch="false" hits="1"/>
+            <line number="12" branch="false" hits="1"/>
+            <line number="13" branch="false" hits="1"/>
+          </lines>
+        </class>
+        <class name="DynamicCommandB" filename="DesignPatterns/Basic/Dynamic Creation/DynamicCommandB.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="11" branch="false" hits="1"/>
+            <line number="12" branch="false" hits="1"/>
+            <line number="13" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Basic.Enumerators" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="LinkedList" filename="DesignPatterns/Basic/Enumerators/LinkedList.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="17" branch="false" hits="13"/>
+            <line number="18" branch="false" hits="11"/>
+            <line number="19" branch="false" hits="11"/>
+            <line number="20" branch="false" hits="11"/>
+            <line number="21" branch="false" hits="11"/>
+            <line number="22" branch="false" hits="2"/>
+            <line number="23" branch="false" hits="2"/>
+            <line number="24" branch="false" hits="2"/>
+            <line number="25" branch="false" hits="2"/>
+            <line number="26" branch="false" hits="13"/>
+            <line number="27" branch="false" hits="13"/>
+            <line number="29" branch="false" hits="4"/>
+            <line number="30" branch="false" hits="3"/>
+            <line number="31" branch="false" hits="2"/>
+            <line number="32" branch="false" hits="2"/>
+            <line number="33" branch="false" hits="2"/>
+            <line number="34" branch="false" hits="1"/>
+            <line number="35" branch="false" hits="1"/>
+            <line number="36" branch="false" hits="1"/>
+            <line number="37" branch="false" hits="1"/>
+            <line number="38" branch="false" hits="3"/>
+            <line number="39" branch="false" hits="3"/>
+            <line number="40" branch="false" hits="4"/>
+            <line number="44" branch="false" hits="1"/>
+            <line number="45" branch="false" hits="1"/>
+            <line number="46" branch="false" hits="1"/>
+            <line number="53" branch="false" hits="1"/>
+            <line number="54" branch="false" hits="1"/>
+            <line number="55" branch="false" hits="1"/>
+            <line number="56" branch="false" hits="1"/>
+            <line number="58" branch="false" hits="11"/>
+            <line number="59" branch="false" hits="10"/>
+            <line number="60" branch="false" hits="10"/>
+            <line number="61" branch="false" hits="10"/>
+            <line number="62" branch="false" hits="10"/>
+            <line number="63" branch="false" hits="1"/>
+            <line number="64" branch="false" hits="11"/>
+          </lines>
+        </class>
+        <class name="Node" filename="DesignPatterns/Basic/Enumerators/Node.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="false" hits="13"/>
+            <line number="17" branch="false" hits="13"/>
+            <line number="18" branch="false" hits="13"/>
+            <line number="20" branch="false" hits="11"/>
+            <line number="21" branch="false" hits="11"/>
+            <line number="22" branch="false" hits="11"/>
+            <line number="23" branch="false" hits="11"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Basic.Extension" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="String" filename="DesignPatterns/Basic/Extension/String.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="false" hits="22"/>
+            <line number="14" branch="false" hits="22"/>
+            <line number="15" branch="false" hits="22"/>
+            <line number="17" branch="false" hits="1"/>
+            <line number="18" branch="false" hits="1"/>
+            <line number="19" branch="false" hits="23"/>
+            <line number="20" branch="false" hits="22"/>
+            <line number="21" branch="false" hits="2"/>
+            <line number="22" branch="false" hits="2"/>
+            <line number="23" branch="false" hits="2"/>
+            <line number="24" branch="false" hits="22"/>
+            <line number="25" branch="false" hits="1"/>
+            <line number="26" branch="false" hits="1"/>
+            <line number="27" branch="false" hits="1"/>
+            <line number="29" branch="false" hits="1"/>
+            <line number="30" branch="false" hits="1"/>
+            <line number="31" branch="false" hits="1"/>
+            <line number="33" branch="false" hits="1"/>
+            <line number="34" branch="false" hits="1"/>
+            <line number="35" branch="false" hits="1"/>
+            <line number="37" branch="false" hits="1"/>
+            <line number="38" branch="false" hits="1"/>
+            <line number="39" branch="false" hits="1"/>
+            <line number="40" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Basic.Template Method" line-rate="0.8235294117647058" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="TemplateA" filename="DesignPatterns/Basic/Template Method/TemplateA.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="12" branch="false" hits="0"/>
+            <line number="13" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="TemplateBase" filename="DesignPatterns/Basic/Template Method/TemplateBase.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="14" branch="false" hits="1"/>
+            <line number="15" branch="false" hits="1"/>
+            <line number="16" branch="false" hits="1"/>
+            <line number="17" branch="false" hits="1"/>
+            <line number="18" branch="false" hits="1"/>
+            <line number="20" branch="false" hits="1"/>
+            <line number="21" branch="false" hits="11"/>
+            <line number="22" branch="false" hits="1"/>
+            <line number="24" branch="false" hits="1"/>
+            <line number="25" branch="false" hits="1"/>
+            <line number="26" branch="false" hits="1"/>
+            <line number="28" branch="false" hits="1"/>
+            <line number="29" branch="false" hits="11"/>
+            <line number="30" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Decoupling.Chain of Responsability" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="ATM" filename="DesignPatterns/Decoupling/Chain of Responsability/ATM.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="false" hits="4"/>
+            <line number="17" branch="false" hits="4"/>
+            <line number="18" branch="false" hits="4"/>
+            <line number="21" branch="false" hits="1"/>
+            <line number="22" branch="false" hits="1"/>
+            <line number="23" branch="false" hits="1"/>
+            <line number="24" branch="false" hits="1"/>
+            <line number="25" branch="false" hits="1"/>
+            <line number="26" branch="false" hits="1"/>
+            <line number="28" branch="false" hits="4"/>
+            <line number="29" branch="false" hits="4"/>
+            <line number="30" branch="false" hits="4"/>
+          </lines>
+        </class>
+        <class name="MoneyPile" filename="DesignPatterns/Decoupling/Chain of Responsability/MoneyPile.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="15" branch="false" hits="4"/>
+            <line number="16" branch="false" hits="4"/>
+            <line number="17" branch="false" hits="4"/>
+            <line number="18" branch="false" hits="4"/>
+            <line number="19" branch="false" hits="4"/>
+            <line number="21" branch="false" hits="13"/>
+            <line number="22" branch="false" hits="13"/>
+            <line number="23" branch="false" hits="13"/>
+            <line number="24" branch="false" hits="13"/>
+            <line number="26" branch="false" hits="13"/>
+            <line number="27" branch="false" hits="13"/>
+            <line number="28" branch="false" hits="13"/>
+            <line number="29" branch="false" hits="30"/>
+            <line number="30" branch="false" hits="4"/>
+            <line number="31" branch="false" hits="4"/>
+            <line number="32" branch="false" hits="4"/>
+            <line number="33" branch="false" hits="17"/>
+            <line number="34" branch="false" hits="17"/>
+            <line number="35" branch="false" hits="17"/>
+            <line number="36" branch="false" hits="17"/>
+            <line number="37" branch="false" hits="13"/>
+            <line number="39" branch="false" hits="30"/>
+            <line number="40" branch="false" hits="30"/>
+            <line number="41" branch="false" hits="30"/>
+            <line number="43" branch="false" hits="13"/>
+            <line number="44" branch="false" hits="2"/>
+            <line number="45" branch="false" hits="2"/>
+            <line number="46" branch="false" hits="9"/>
+            <line number="47" branch="false" hits="9"/>
+            <line number="48" branch="false" hits="9"/>
+            <line number="49" branch="false" hits="2"/>
+            <line number="50" branch="false" hits="2"/>
+            <line number="51" branch="false" hits="11"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Decoupling.Command" line-rate="0.8928571428571429" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Door" filename="DesignPatterns/Decoupling/Command/Door.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="15" branch="false" hits="5"/>
+            <line number="16" branch="false" hits="5"/>
+            <line number="17" branch="false" hits="5"/>
+          </lines>
+        </class>
+        <class name="DoorCommands" filename="DesignPatterns/Decoupling/Command/DoorCommands.swift" line-rate="0.8800000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="18" branch="false" hits="2"/>
+            <line number="19" branch="false" hits="2"/>
+            <line number="20" branch="false" hits="2"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="1"/>
+            <line number="28" branch="false" hits="1"/>
+            <line number="29" branch="false" hits="1"/>
+            <line number="30" branch="false" hits="1"/>
+            <line number="34" branch="false" hits="1"/>
+            <line number="35" branch="false" hits="1"/>
+            <line number="36" branch="false" hits="1"/>
+            <line number="37" branch="false" hits="1"/>
+            <line number="44" branch="false" hits="1"/>
+            <line number="45" branch="false" hits="1"/>
+            <line number="46" branch="false" hits="1"/>
+            <line number="47" branch="false" hits="1"/>
+            <line number="48" branch="false" hits="1"/>
+            <line number="50" branch="false" hits="1"/>
+            <line number="51" branch="false" hits="1"/>
+            <line number="52" branch="false" hits="1"/>
+            <line number="54" branch="false" hits="1"/>
+            <line number="55" branch="false" hits="1"/>
+            <line number="56" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Decoupling.Decorator" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Coffee" filename="DesignPatterns/Decoupling/Decorator/Coffee.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="20" branch="false" hits="3"/>
+            <line number="21" branch="false" hits="3"/>
+            <line number="23" branch="false" hits="3"/>
+            <line number="24" branch="false" hits="3"/>
+            <line number="25" branch="false" hits="3"/>
+            <line number="27" branch="false" hits="3"/>
+            <line number="28" branch="false" hits="3"/>
+            <line number="29" branch="false" hits="3"/>
+            <line number="36" branch="false" hits="4"/>
+            <line number="37" branch="false" hits="4"/>
+            <line number="38" branch="false" hits="4"/>
+            <line number="40" branch="false" hits="4"/>
+            <line number="41" branch="false" hits="4"/>
+            <line number="42" branch="false" hits="4"/>
+            <line number="44" branch="false" hits="4"/>
+            <line number="45" branch="false" hits="4"/>
+            <line number="46" branch="false" hits="4"/>
+            <line number="53" branch="false" hits="2"/>
+            <line number="54" branch="false" hits="2"/>
+            <line number="55" branch="false" hits="2"/>
+            <line number="57" branch="false" hits="2"/>
+            <line number="58" branch="false" hits="2"/>
+            <line number="59" branch="false" hits="2"/>
+            <line number="63" branch="false" hits="2"/>
+            <line number="64" branch="false" hits="2"/>
+            <line number="65" branch="false" hits="2"/>
+            <line number="67" branch="false" hits="2"/>
+            <line number="68" branch="false" hits="2"/>
+            <line number="69" branch="false" hits="2"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Decoupling.Delegates" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Gang" filename="DesignPatterns/Decoupling/Delegates/Gang.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="false" hits="3"/>
+            <line number="14" branch="false" hits="3"/>
+            <line number="15" branch="false" hits="3"/>
+            <line number="23" branch="false" hits="1"/>
+            <line number="24" branch="false" hits="1"/>
+            <line number="25" branch="false" hits="1"/>
+            <line number="26" branch="false" hits="1"/>
+            <line number="28" branch="false" hits="1"/>
+            <line number="29" branch="false" hits="1"/>
+            <line number="30" branch="false" hits="1"/>
+            <line number="31" branch="false" hits="1"/>
+            <line number="32" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Decoupling.Flyweight" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="CoffeeShop" filename="DesignPatterns/Decoupling/Flyweight/CoffeeShop.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="15" branch="false" hits="2"/>
+            <line number="16" branch="false" hits="2"/>
+            <line number="17" branch="false" hits="2"/>
+            <line number="25" branch="false" hits="5"/>
+            <line number="26" branch="false" hits="2"/>
+            <line number="27" branch="false" hits="2"/>
+            <line number="28" branch="false" hits="2"/>
+            <line number="29" branch="false" hits="5"/>
+            <line number="30" branch="false" hits="5"/>
+            <line number="37" branch="false" hits="5"/>
+            <line number="38" branch="false" hits="5"/>
+            <line number="39" branch="false" hits="5"/>
+            <line number="41" branch="false" hits="8"/>
+            <line number="42" branch="false" hits="8"/>
+            <line number="43" branch="false" hits="8"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Decoupling.Hierarchies" line-rate="0.8055555555555556" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="File" filename="DesignPatterns/Decoupling/Hierarchies/File.swift" line-rate="0.8055555555555556" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="false" hits="9"/>
+            <line number="17" branch="false" hits="9"/>
+            <line number="18" branch="false" hits="9"/>
+            <line number="19" branch="false" hits="9"/>
+            <line number="21" branch="false" hits="17"/>
+            <line number="22" branch="false" hits="11"/>
+            <line number="23" branch="false" hits="11"/>
+            <line number="24" branch="false" hits="11"/>
+            <line number="25" branch="false" hits="6"/>
+            <line number="26" branch="false" hits="17"/>
+            <line number="29" branch="false" hits="2"/>
+            <line number="30" branch="false" hits="2"/>
+            <line number="31" branch="false" hits="2"/>
+            <line number="35" branch="false" hits="12"/>
+            <line number="36" branch="false" hits="12"/>
+            <line number="37" branch="false" hits="12"/>
+            <line number="44" branch="false" hits="6"/>
+            <line number="45" branch="false" hits="6"/>
+            <line number="46" branch="false" hits="6"/>
+            <line number="47" branch="false" hits="6"/>
+            <line number="48" branch="false" hits="6"/>
+            <line number="50" branch="false" hits="2"/>
+            <line number="51" branch="false" hits="2"/>
+            <line number="52" branch="false" hits="2"/>
+            <line number="53" branch="false" hits="2"/>
+            <line number="54" branch="false" hits="2"/>
+            <line number="56" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="62" branch="false" hits="0"/>
+            <line number="66" branch="false" hits="1"/>
+            <line number="67" branch="false" hits="1"/>
+            <line number="68" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Decoupling.Notifications" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="NotificationSender" filename="DesignPatterns/Decoupling/Notifications/NotificationSender.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="15" branch="false" hits="1"/>
+            <line number="16" branch="false" hits="1"/>
+            <line number="17" branch="false" hits="1"/>
+            <line number="18" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Decoupling.Prototype" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Label" filename="DesignPatterns/Decoupling/Prototype/Label.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="false" hits="2"/>
+            <line number="17" branch="false" hits="2"/>
+            <line number="18" branch="false" hits="2"/>
+            <line number="20" branch="false" hits="1"/>
+            <line number="21" branch="false" hits="1"/>
+            <line number="22" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Decoupling.Singleton" line-rate="0.8125000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Singleton" filename="DesignPatterns/Decoupling/Singleton/Singleton.swift" line-rate="0.8125000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="18" branch="false" hits="2"/>
+            <line number="19" branch="false" hits="2"/>
+            <line number="20" branch="false" hits="2"/>
+            <line number="21" branch="false" hits="2"/>
+            <line number="22" branch="false" hits="2"/>
+            <line number="23" branch="false" hits="2"/>
+            <line number="28" branch="false" hits="2"/>
+            <line number="29" branch="false" hits="2"/>
+            <line number="30" branch="false" hits="2"/>
+            <line number="31" branch="false" hits="2"/>
+            <line number="32" branch="false" hits="2"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="2"/>
+            <line number="37" branch="false" hits="2"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Hide Complexity.Abstract Factory" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="AbstractFactory" filename="DesignPatterns/Hide Complexity/Abstract Factory/AbstractFactory.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="22" branch="false" hits="1"/>
+            <line number="23" branch="false" hits="1"/>
+            <line number="24" branch="false" hits="1"/>
+            <line number="28" branch="false" hits="1"/>
+            <line number="29" branch="false" hits="1"/>
+            <line number="30" branch="false" hits="1"/>
+            <line number="34" branch="false" hits="1"/>
+            <line number="35" branch="false" hits="1"/>
+            <line number="36" branch="false" hits="1"/>
+            <line number="40" branch="false" hits="1"/>
+            <line number="41" branch="false" hits="1"/>
+            <line number="42" branch="false" hits="1"/>
+            <line number="55" branch="false" hits="1"/>
+            <line number="56" branch="false" hits="1"/>
+            <line number="57" branch="false" hits="1"/>
+            <line number="59" branch="false" hits="1"/>
+            <line number="60" branch="false" hits="1"/>
+            <line number="61" branch="false" hits="1"/>
+            <line number="65" branch="false" hits="1"/>
+            <line number="66" branch="false" hits="1"/>
+            <line number="67" branch="false" hits="1"/>
+            <line number="69" branch="false" hits="1"/>
+            <line number="70" branch="false" hits="1"/>
+            <line number="71" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Hide Complexity.Facade" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Facade" filename="DesignPatterns/Hide Complexity/Facade/Facade.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="false" hits="1"/>
+            <line number="17" branch="false" hits="1"/>
+            <line number="18" branch="false" hits="1"/>
+            <line number="20" branch="false" hits="1"/>
+            <line number="21" branch="false" hits="1"/>
+            <line number="22" branch="false" hits="1"/>
+            <line number="28" branch="false" hits="1"/>
+            <line number="29" branch="false" hits="1"/>
+            <line number="30" branch="false" hits="1"/>
+            <line number="35" branch="false" hits="1"/>
+            <line number="36" branch="false" hits="1"/>
+            <line number="37" branch="false" hits="1"/>
+            <line number="46" branch="false" hits="2"/>
+            <line number="47" branch="false" hits="2"/>
+            <line number="48" branch="false" hits="1"/>
+            <line number="49" branch="false" hits="1"/>
+            <line number="50" branch="false" hits="1"/>
+            <line number="51" branch="false" hits="2"/>
+            <line number="53" branch="false" hits="1"/>
+            <line number="54" branch="false" hits="1"/>
+            <line number="55" branch="false" hits="1"/>
+            <line number="56" branch="false" hits="1"/>
+            <line number="57" branch="false" hits="1"/>
+            <line number="58" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Hide Complexity.Mediator" line-rate="0.8750000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Mediator" filename="DesignPatterns/Hide Complexity/Mediator/Mediator.swift" line-rate="0.8750000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="false" hits="3"/>
+            <line number="17" branch="false" hits="3"/>
+            <line number="18" branch="false" hits="3"/>
+            <line number="19" branch="false" hits="3"/>
+            <line number="21" branch="false" hits="1"/>
+            <line number="22" branch="false" hits="1"/>
+            <line number="23" branch="false" hits="1"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="3"/>
+            <line number="38" branch="false" hits="3"/>
+            <line number="39" branch="false" hits="3"/>
+            <line number="41" branch="false" hits="1"/>
+            <line number="42" branch="false" hits="3"/>
+            <line number="43" branch="false" hits="2"/>
+            <line number="44" branch="false" hits="2"/>
+            <line number="45" branch="false" hits="2"/>
+            <line number="46" branch="false" hits="3"/>
+            <line number="47" branch="false" hits="1"/>
+            <line number="51" branch="false" hits="2"/>
+            <line number="52" branch="false" hits="2"/>
+            <line number="53" branch="false" hits="2"/>
+            <line number="54" branch="false" hits="2"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="DesignPatterns.Hide Complexity.Proxy" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="ProtectionProxy" filename="DesignPatterns/Hide Complexity/Proxy/ProtectionProxy.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="false" hits="1"/>
+            <line number="17" branch="false" hits="1"/>
+            <line number="18" branch="false" hits="1"/>
+            <line number="19" branch="false" hits="1"/>
+            <line number="25" branch="false" hits="2"/>
+            <line number="26" branch="false" hits="1"/>
+            <line number="27" branch="false" hits="1"/>
+            <line number="28" branch="false" hits="1"/>
+            <line number="29" branch="false" hits="1"/>
+            <line number="30" branch="false" hits="1"/>
+            <line number="31" branch="false" hits="1"/>
+            <line number="32" branch="false" hits="2"/>
+            <line number="34" branch="false" hits="3"/>
+            <line number="35" branch="false" hits="2"/>
+            <line number="36" branch="false" hits="2"/>
+            <line number="37" branch="false" hits="2"/>
+            <line number="38" branch="false" hits="1"/>
+            <line number="39" branch="false" hits="1"/>
+            <line number="40" branch="false" hits="3"/>
+          </lines>
+        </class>
+        <class name="VirtualProxy" filename="DesignPatterns/Hide Complexity/Proxy/VirtualProxy.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="18" branch="false" hits="1"/>
+            <line number="19" branch="false" hits="1"/>
+            <line number="20" branch="false" hits="1"/>
+            <line number="21" branch="false" hits="1"/>
+            <line number="23" branch="false" hits="1"/>
+            <line number="24" branch="false" hits="1"/>
+            <line number="25" branch="false" hits="1"/>
+            <line number="27" branch="false" hits="1"/>
+            <line number="28" branch="false" hits="1"/>
+            <line number="29" branch="false" hits="1"/>
+            <line number="43" branch="false" hits="1"/>
+            <line number="44" branch="false" hits="1"/>
+            <line number="45" branch="false" hits="1"/>
+            <line number="47" branch="false" hits="1"/>
+            <line number="48" branch="false" hits="1"/>
+            <line number="49" branch="false" hits="1"/>
+            <line number="50" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
